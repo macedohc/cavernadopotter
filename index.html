@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Site do Restaurante</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="logooficial.png" type="image/x-icon">
+
+    <style>
+        /* Estilos adicionais para melhor aparência e estrutura */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f3d6;
+        }
+        header {
+            background-image: url('principal2.1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #380810;
+            padding: 100px 0;
+        }
+      
+        header h1 {
+            margin-bottom: 0;
+        }
+        nav {
+    background-color: #380810;
+    text-align: center;
+    padding: 10px 0;
+      }
+
+      nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #e6cb84;
+    font-weight: bold;
+    transition: color 0.3s; /* Adiciona uma transição suave de cor ao passar o mouse */
+    
+}
+
+    nav a:hover {
+    color: rgb(255, 255, 255); /* Altera a cor ao passar o mouse por cima */
+}
+  
+
+        section {
+            padding: 40px 20px;
+            background-color: #f7f3d6;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        section h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        section figure {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(46, 2, 2, 0.863);
+        }
+        section figure img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        section figure figcaption {
+            font-style: italic;
+            color: #35051d;
+        }
+        iframe {
+            display: block;
+            margin: 0 auto 20px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(54, 4, 4, 0.842);
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #b89a51;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto; /* Centralizando o botão */
+        }
+        .gif-images {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .carousel-item img {
+            border-radius: 5px;
+        }
+        #sobre-nos {
+            display: flex;
+            align-items: center;
+        }
+        #sobre-nos-texto {
+            flex: 2;
+            padding-right: 40px;
+        }
+        #chef-img {
+            flex: 1;
+            text-align: center;
+        }
+        #chef-img img {
+            max-width: 50%;
+            border-radius: 1px;
+            margin-bottom: 1px;
+        }
+        #chef-img figcaption {
+            font-style: italic;
+            color: #868e96;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-2">
+                    <img src="logooficial.png" alt="" width="80">
+                </div>
+                <div class="col-10">
+                    <h1>Caverna do Potter</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+<nav>
+    <a href="#sobre-nos">Início</a>
+    <a href="#pratos">Pratos</a>
+    <a href="#bebidas">Bebidas</a>
+    <a href="#contatos">Contatos</a>
+</nav>
+
+<section id="sobre-nos">
+    <div id="sobre-nos-texto">
+        <h2 style="color: #2c0410; font-family: 'Arial', sans-serif;">Sobre Nós</h2>
+   
+        <p>
+            Desde sua fundação em 1998, na movimentada cidade de Nova York, a Hamburgueria Caverna do Potter tem sido reverenciada como um verdadeiro paraíso para os amantes de hambúrgueres.
+            Orgulhosamente premiada com reconhecimento em guias de gastronomia, nossa hamburgueria é amplamente reconhecida por seu padrão excepcional de criações gourmet.
+            A essência de nossos hambúrgueres reside na maestria incomparável do renomado mestre hamburgeiro, chef Victor Albuquerque. Vencedor do Battle of the Burger, Victor traz sua paixão pela culinária e sua visão inovadora para cada hambúrguer que sai de nossa cozinha. Sua liderança inspiradora e suas habilidades únicas agregam um toque inconfundível a cada mordida na Caverna do Potter.
+            Nossos hambúrgueres são meticulosamente preparados por uma equipe de chefs talentosos, utilizando ingredientes da mais alta qualidade e técnicas culinárias aprimoradas.
+            Cada mordida é uma celebração dos sentidos, uma combinação de sabores e texturas cuidadosamente harmonizados para criar uma experiência que vai além do simples ato de degustar.
+            Além da excelência culinária, o ambiente acolhedor e descontraído da Caverna do Potter oferece o cenário ideal para reuniões informais e encontros saborosos.
+            Nossa equipe dedicada está comprometida em garantir que cada visita seja uma jornada saborosa verdadeiramente memorável.
+            Convidamos você a se juntar a nós e explorar os deliciosos sabores da nossa hamburgueria, desfrutando de uma experiência que combina tradição, criatividade e paixão pela culinária.</p>
+            <p style="color: #2c0410; font-family: 'Arial', sans-serif; font-weight: bold;">
+                Faça sua reserva hoje mesmo e permita-nos guiá-lo por uma viagem de sabores na Caverna do Potter.
+            </p>
+            
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSerUZ64ZVgKK3TX4KmCroZ_p1CuJ2ia98zj1JFnAHgfn0XoUw/viewform" target="_blank"><button>Agende sua reserva</button></a>
+
+    </div>
+    <div id="chef-img">
+        <img src="chefe.jpg" alt="Chef Victor Albuquerque">
+        <figcaption>Victor Albuquerque - Chef Executivo</figcaption>
+    </div>
+</section>
+
+        
+    </div>
+</section>
+<section id="pratos">
+    <h2 style="color: #2c0410; font-family: 'Arial', sans-serif;">Pratos</h2>
+    <p style="color: #797576; text-align: center;">Alguns pratos da nossa Hamburgueria</p>
+    <div style="display: flex; justify-content: space-around;">
+        <figure style="text-align: center;">
+            <img src="comida1.jpg" alt="Prato 1" style="width: 300px;">
+            <figcaption>Harry Potter</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="comida2.jpg" alt="Prato 2" style="width: 300px;">
+            <figcaption>Hermione Granger</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="comida3.jpg" alt="Prato 3" style="width: 300px;">
+            <figcaption>Rony Weasley</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="comida4.jpg" alt="Prato 1" style="width: 300px;">
+            <figcaption>Alvo Dumbledore</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="comida5.jpg" alt="Prato 2" style="width: 300px;">
+            <figcaption>Rúbeo Hagrid</figcaption>
+        </figure>
+        </div>
+    <div style="display: flex; justify-content: space-around;">
+        <figure style="text-align: center;">
+            <img src="comida6.jpg" alt="Prato 3" style="width: 300px;">
+            <figcaption>Minerva McGonagall</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="comida7.jpg" alt="Prato 1" style="width: 300px;">
+            <figcaption>Severo Snape</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="comida8.jpg" alt="Prato 2" style="width: 300px;">
+            <figcaption>Remo Lupin</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="comida9.jpg" alt="Prato 3" style="width: 300px;">
+            <figcaption>Sirius Black</figcaption>
+        </figure>
+            <figure style="text-align: center;">
+                <img src="porção.jpeg" alt="Prato 3" style="width: 300px;">
+                <figcaption>Lord Voldemort</figcaption>
+        </figure>
+    </div>
+</section>
+
+<div class="container text-center">
+    <div id="carouselExampleIndicators" class="carousel slide mx-auto" style="max-width: 50%;">
+        <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+                    <!-- Adicione mais indicators conforme o número de imagens no carrossel -->
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagem.jpg" alt="1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem1.jpg" alt="2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem2.jpg" alt="3">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem3.jpg" alt="4">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem4.jpg" alt="5">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem5.jpg" alt="6">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem6.jpg" alt="7">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem7.jpg" alt="8">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem8.jpg" alt="9">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem9.jpg" alt="10">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagem10.jpg" alt="11">
+                    </div>
+
+                    <!-- Adicione mais imagens conforme necessário -->
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+<section id="bebidas">
+    <h2 style="color: #2c0410; font-family: 'Arial', sans-serif;">Bebidas</h2>
+    <p style="color: #797576; text-align: center;">Algumas bebidas da nossa Hamburgueria</p>
+    <div style="display: flex; justify-content: space-around;">
+        <figure style="text-align: center;">
+            <img src="bebidas1.jpg" alt="Prato 1" style="width: 300px;">
+            <figcaption>Neville Longbottom</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="bebidas3.jpg" alt="Prato 2" style="width: 300px;">
+            <figcaption>Draco Malfoy</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="bebidas4.jpg" alt="Prato 3" style="width: 300px;">
+            <figcaption>Gina Weasley</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="bebidas5.jpg" alt="Prato 1" style="width: 300px;">
+            <figcaption>Luna Lovegood</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="bebidas6.jpg" alt="Prato 2" style="width: 300px;">
+            <figcaption>Lucio Malfoy</figcaption>
+        </figure>
+        <figure style="text-align: center;">
+            <img src="bebidas7.jpg" alt="Prato 3" style="width: 300px;">
+            <figcaption>Bellatrix Lestrange</figcaption>
+        </figure>
+    </div>
+</section>
+
+<iframe width="780" height="420" src="https://www.youtube.com/embed/0Dj2kq5Neus?si=xzQmkpSRouLSbMV6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<section id="contatos" style="display: flex;">
+    <div style="flex: 1; margin-right: 20px;">
+        <h2 style="color: #2c0410; font-family: 'Arial', sans-serif;">Localização</h2>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ec4Vu2ex_g_jsD9Vjxmfqpg3nix0KTg&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+     </div>
+    <div style="flex: 1;">
+        <h2 style="color: #2c0410; font-family: 'Arial', sans-serif;">Formulário de Contato</h2>
+        <form action="#" method="post">
+            <div style="margin-bottom: 10px;">
+                <label for="nome" style="color: #2c0410; font-family: 'Arial', sans-serif;">Nome:</label>
+                <input type="text" id="nome" name="nome" style="width: 100%;" required>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="email" style="color: #2c0410; font-family: 'Arial', sans-serif;">E-mail:</label>
+                <input type="email" id="email" name="e-mail" style="width: 100%;" required>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="mensagem" style="color: #2c0410; font-family: 'Arial', sans-serif;">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" style="width: 100%;" rows="6" required></textarea>
+            </div>
+            <div>
+                <button type="submit" style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #b89a51; color: white; font-weight: bold; cursor: pointer;">Enviar</button>
+            </div>
+        </form>
+    </div>
+</section>
+     <div class="gif-images">
+        <img src="pottergif.gif" alt="GIF 1" width="300">
+        <img src="pottergif2.gif" alt="GIF 2" width="300">
+        <img src="pottergif3.gif" alt="GIF 3" width="300">
+     </div>
+ </section>
+
+     <p style="color: #2c0410; font-family: 'Arial', sans-serif; font-weight: bold;">
+        © 1998 Macedo. Todos os direitos reservados.</p>
+     <p style="color: #2c0410; font-family: 'Arial', sans-serif; font-weight: bold;">
+        Criado por Hellen Macedo.</p> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   </body>
+</html>
